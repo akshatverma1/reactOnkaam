@@ -26,9 +26,9 @@ export default function bnav() {
             
                 <p>AR</p>
             </Link>
-        {/*             
+                     
             <Link to="/booking" onClick={change} className='Icons'><i className="fas fa-clipboard-list fa-lg"></i>
-                <p>Booking</p></Link> */}
+                <p>Booking</p></Link> 
 
 
             <Link to="/" className='Icons' onClick={classchange}>
@@ -38,7 +38,7 @@ export default function bnav() {
                 <p>Home</p></Link>
             <Link to="/assistant" onClick={change} className='Icons'><i className="fas fa-comment-dots fa-lg"></i>
                 <p>Assistant</p></Link>
-            <Link to="/login" onClick={change} className='Icons'><i className="fas fa-user-tie fa-lg"></i>
+            <Link to="/account" onClick={change} className='Icons'><i className="fas fa-user-tie fa-lg"></i>
                 <p>Account</p></Link>
         </div>
 
