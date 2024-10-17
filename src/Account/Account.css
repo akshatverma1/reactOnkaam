@@ -34,3 +34,10 @@
 {
     font-size: 18px;
 }
+.iconss{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

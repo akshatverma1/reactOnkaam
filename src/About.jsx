@@ -15,7 +15,7 @@ export default function Aboutfunction() {
                     <Link to="/">
                         <i class="fa-solid fa-arrow-left fa-lg"></i>
                     </Link>
-                    <h3 style={stye}>Electrician</h3>
+                    <h3 style={stye}>About</h3>
                 </div>
                 <BreakLO></BreakLO>
             <header>
@@ -102,6 +102,7 @@ export default function Aboutfunction() {
             <footer>
                 <p>&copy; 2024 Onkaam - Home Services Simplified</p>
             </footer>
+            <Bottomnavfunction></Bottomnavfunction>
         </div>
     )
 }
