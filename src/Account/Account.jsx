@@ -11,7 +11,7 @@ export default function Account(){
             <Breakline></Breakline>
             <div className='sectionss'>
             <i class="fa-regular fa-address-card fa-2xs"></i>
-            <Link to="/">
+            <Link to="/about">
             <h3>About Onkaam</h3>
             </Link>
             

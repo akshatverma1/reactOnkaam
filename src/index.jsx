@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import About from "./About.jsx";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from "./HomePage.jsx";
 import Errorr from './Error.jsx';
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')).render(
   <div>
     <BrowserRouter>
       <Routes>
+        <Route path="/about" element={<About></About>}></Route>
         <Route path='/error' element={<Errorr />} />
         <Route path='/' element={<HomePage />} />
         <Route path="/ar" element={<Arcomponents />} />
