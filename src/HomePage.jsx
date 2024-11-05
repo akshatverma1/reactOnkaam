@@ -1,3 +1,13 @@
+/**
+ * The `homepageFunction` component in this JavaScript React code renders a homepage layout with a
+ * navigation bar, services section, loading cards, a "Coming Soon" message, bottom navigation,
+ * augmented reality furniture component, and a footer.
+ * @returns The `homepageFunction` component is being returned, which includes JSX elements for a
+ * webpage layout. It consists of a navigation bar (`Navbarfunction`), services section
+ * (`Servicesfunction`), a break line component (`BreakLO`), a loading card element, a "Coming Soon..."
+ * heading, a bottom navigation bar (`Bottomnavfunction`), an AR furniture component (`ARFurniture`),
+ * and a
+ */
 import React from 'react';
 import Navbarfunction from './Navbar';
 import Footerfunction from './Footer';
@@ -13,6 +23,7 @@ import Locatdect from './Location';
 import Booking from './Booking/Book';
 import ParentComponent from './Assitants/Paresnt';
 import ARFurniture from './Arreact.jsx';
+import Ani from './animation.jsx';
 import "./HomePage.css";
 export default function homepageFunction() {
     return (
@@ -20,18 +31,10 @@ export default function homepageFunction() {
             <Navbarfunction></Navbarfunction>
             <Servicesfunction></Servicesfunction>
             <BreakLO></BreakLO>
-            <div className='connn'>
-
-                <div class="card">
-                    <div class="card_load"></div>
-                    <div class="card_load_extreme_title"></div>
-                    <div class="card_load_extreme_descripion"></div>
-                </div>
-               
-            </div>
+            <Ani></Ani>
             <h1>Comming Soon...</h1>
             <Bottomnavfunction></Bottomnavfunction>
-            <ARFurniture></ARFurniture>
+            
             <Footerfunction></Footerfunction>
         </div>
     )

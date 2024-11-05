@@ -22,7 +22,7 @@ export default function bnav() {
         <div className="footerClass">
 
 
-            <Link to="/ar" onClick={classchange} className='Icons'><i className="fas fa-vr-cardboard fa-lg"></i>
+            <Link to="/comingsoon" onClick={classchange} className='Icons'><i className="fas fa-vr-cardboard fa-lg"></i>
             
                 <p>AR</p>
             </Link>
