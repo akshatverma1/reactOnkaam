@@ -22,39 +22,39 @@ export default function Booking() {
                     <h3 style={stye}>AC Repair and Services</h3>
                 </div>
                 <Breakline></Breakline>
-                {/* <div>
+                <div>
                     <h3 style={sty}>Switch & Socket</h3>
-                    <Itemfunction Itemname="power saver AC service" rating="4.8 (16k reviews)" prices="599" image={Power}></Itemfunction>
+                    <Itemfunction Itemname="power saver AC service" rating="4.8 (16k reviews)" prices="599" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
-                    <Itemfunction Itemname="Anti-rust deep clean AC service" rating="4.8 (16k reviews)" prices="899" image={Anti}></Itemfunction>
+                    <Itemfunction Itemname="Anti-rust deep clean AC service" rating="4.8 (16k reviews)" prices="899" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
-                    <Itemfunction Itemname="Lite AC service" rating="4.8 (16k reviews)" prices="499" image={Lite}></Itemfunction>
+                    <Itemfunction Itemname="Lite AC service" rating="4.8 (16k reviews)" prices="499" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
-                    <Itemfunction Itemname="AC repair" rating="4.8 (16k reviews)" prices="299" image={AC1}></Itemfunction>
+                    <Itemfunction Itemname="AC repair" rating="4.8 (16k reviews)" prices="299" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
-                    <Itemfunction Itemname="AC Gas leak fix &refill" rating="4.8 (16k reviews)" prices="2500" image={AC2}></Itemfunction>
+                    <Itemfunction Itemname="AC Gas leak fix &refill" rating="4.8 (16k reviews)" prices="2500" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
-                    <Itemfunction Itemname="AC installation" rating="4.8 (16k reviews)" prices="799" image={ACI}></Itemfunction>
+                    <Itemfunction Itemname="AC installation" rating="4.8 (16k reviews)" prices="799" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
-                    <Itemfunction Itemname="AC uninstallation" rating="4.8 (16k reviews)" prices="499" image={ACU}></Itemfunction>
+                    <Itemfunction Itemname="AC uninstallation" rating="4.8 (16k reviews)" prices="499" image={Sample}></Itemfunction>
                     <Linee></Linee>
                 </div>
                 <div>
                     <Itemfunction Itemname="Switch Replacement" rating="4.8 (16k reviews)" prices="5797" image={Sample}></Itemfunction>
                     <Linee></Linee>
-                </div> */}
+                </div>
             </div>
 
             <Bottomnavfunction></Bottomnavfunction>

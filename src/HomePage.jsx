@@ -12,6 +12,7 @@ import Bnav from './Bottom_nav';
 import Locatdect from './Location';
 import Booking from './Booking/Book';
 import ParentComponent from './Assitants/Paresnt';
+import ARFurniture from './Arreact.jsx';
 import "./HomePage.css";
 export default function homepageFunction() {
     return (
@@ -30,6 +31,7 @@ export default function homepageFunction() {
             </div>
             <h1>Comming Soon...</h1>
             <Bottomnavfunction></Bottomnavfunction>
+            <ARFurniture></ARFurniture>
             <Footerfunction></Footerfunction>
         </div>
     )

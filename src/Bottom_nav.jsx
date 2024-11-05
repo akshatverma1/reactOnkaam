@@ -27,7 +27,7 @@ export default function bnav() {
                 <p>AR</p>
             </Link>
                      
-            <Link to="/booking" onClick={change} className='Icons'><i className="fas fa-clipboard-list fa-lg"></i>
+            <Link to="/comingsoon" onClick={change} className='Icons'><i className="fas fa-clipboard-list fa-lg"></i>
                 <p>Booking</p></Link> 
 
 
@@ -36,7 +36,7 @@ export default function bnav() {
                     r == true ? (<i className="fa-solid fa-house-circle-check fa-lg"></i>) : (<i style={{ color: "red" }} className="fa-solid fa-house-circle-check fa-lg"></i>)
                 }
                 <p>Home</p></Link>
-            <Link to="/assistant" onClick={change} className='Icons'><i className="fas fa-comment-dots fa-lg"></i>
+            <Link to="/comingsoon" onClick={change} className='Icons'><i className="fas fa-comment-dots fa-lg"></i>
                 <p>Assistant</p></Link>
             <Link to="/account" onClick={change} className='Icons'><i className="fas fa-user-tie fa-lg"></i>
                 <p>Account</p></Link>

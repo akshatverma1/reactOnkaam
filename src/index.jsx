@@ -21,6 +21,7 @@ import Painter from "./Painter/Painter.jsx";
 import Plumb from "./Plumber/Plumber.jsx";
 import Salonss from "./Salons/Salons.jsx";
 import Login from "./login/loginpage.jsx"
+import ComingSoon from './comingsoon.jsx';
 createRoot(document.getElementById('root')).render(
   <div>
     <BrowserRouter>
@@ -43,6 +44,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/cleaning" element={<Clean></Clean>}></Route>
         <Route path='/acc' element={<Accc></Accc>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path="/comingsoon" element={<ComingSoon></ComingSoon>}></Route>
       </Routes>
     </BrowserRouter>
   </div>
